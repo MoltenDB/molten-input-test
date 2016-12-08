@@ -1,0 +1,25 @@
+{
+  "name": "molten-input-test",
+  "version": "1.0.0",
+  "description": "Standard tests for all MoltenDB inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/eslint --ignore-path .gitignore **/*.js && node_modules/.bin/jasmine",
+    "lint": "node_modules/.bin/eslint --ignore-path .gitignore **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoltenDB/molten-input-test.git"
+  },
+  "author": "Jack Farley <or4e3dsw@bytes.nz>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MoltenDB/molten-input-test/issues"
+  },
+  "homepage": "https://github.com/MoltenDB/molten-input-test#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "jasmine": "^2.5.2"
+  }
+}
